@@ -16,7 +16,7 @@ for (let x =0; x < reviews.length; x++) {
     console.log(reviews[x].stars) // Each reviewers' stars number
     for (let step = 0; step < reviews[x].stars; step++) {
         const genIndicator = document.createElement('img') //이 createElement를 reviews[x].stars만큼 한다는거. 즉, 요소 생성을 해당 숫자만큼 반복하겠다.
-        genIndicator.src = "../images/Blue-Star.svg"
+        genIndicator.src = "images/Blue-Star.svg"
         myRating.appendChild(genIndicator)
     }
     
